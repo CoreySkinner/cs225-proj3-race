@@ -39,6 +39,10 @@ public class MainMenu extends BorderPane {
         setupTopText();
     }
 
+    /**
+     * creates a button and sets parameters for the button
+     * @param btn the created button
+     */
     private void setButton( Button btn ){
 
         if( btn == null )
