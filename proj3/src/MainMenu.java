@@ -70,7 +70,9 @@ public class MainMenu extends BorderPane {
         Text top = new Text("Super Awesome Extreme \nRacing!!!");
         top.setFill(Color.RED);
         top.setStyle("-fx-background-color: transparent;" +
-                "-fx-font-size: 20;");
+                "-fx-font-size: 20;" +
+                "-fx-font-style: italic;" +
+                "-fx-font-weight: bold");
 
         top.setTextAlignment(TextAlignment.CENTER);
 
